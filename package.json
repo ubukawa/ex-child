@@ -1,0 +1,26 @@
+{
+  "name": "data",
+  "version": "1.0.0",
+  "description": "practice of child process",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ubukawa/ex-child.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ubukawa/ex-child/issues"
+  },
+  "homepage": "https://github.com/ubukawa/ex-child#readme",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "config": "^3.3.8",
+    "hjson": "^3.2.2",
+    "json-text-sequence": "^1.0.1"
+  }
+}

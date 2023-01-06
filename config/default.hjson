@@ -1,0 +1,23 @@
+{
+  minzoom: 0
+  maxzoom: 5
+  srcs: [
+    {
+      url: https://geoportal.un.org/arcgis/sharing/rest/content/items/3b628266c28345ecbcac152255eba4be/data
+      layer: salb
+      cnt: sen
+      minzoom: 0
+      maxzoom: 5
+    }
+    {
+      url: https://geoportal.un.org/arcgis/sharing/rest/content/items/2b37e02f41f942e69892b95ea49b56f0/data
+      layer: salb
+      cnt: cod
+      minzoom: 0
+      maxzoom: 5
+    }
+  ]
+  ogr2ogrPath: /usr/bin/ogr2ogr
+  tippecanoePath: tippecanoe
+  dstDir: zxy
+}
